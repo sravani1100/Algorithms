@@ -1,4 +1,4 @@
-public class BitCheck {
+public class BitCount {
    /* int cnt = 0;
     public  int checkMethod1(int N){
         while(N != 0){
@@ -19,6 +19,6 @@ public class BitCheck {
     }
     public static void main(String[] args) {
         //System.out.println(new BitCheck().checkMethod1(15));
-        System.out.println(new BitCheck().checkMethod2(14));
+        System.out.println(new BitCount().checkMethod2(14));
     }
 }
