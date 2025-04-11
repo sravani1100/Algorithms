@@ -1,4 +1,16 @@
 public class SumOfXOR {
+
+    /*public int solve(int[] nums, int n){
+        int ans = 0;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                ans += (nums[i] ^ nums[j]);
+            }
+        }
+        return ans;
+    }*/
+
+
     public int sum(int[] arr, int n){
         int ans = 0;
         for(int bit = 0; bit <= 30; bit++){
